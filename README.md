@@ -12,19 +12,6 @@ Generates Buy/Sell signals based on crossover rules
 Calculates daily returns and strategy returns
 Compares the cumulative performance of the moving-average strategy vs. buy-and-hold
 
-
-📁 Project Structure
-tesla_ma_strategy/
-│
-├── notebooks/
-│   └── backtest_ma_strategy.ipynb     # Main notebook (this project)
-│
-├── results/
-│   └── tsla_backtest.png              # Strategy performance chart
-│
-├── README.md
-└── requirements.txt
-
 📊 Strategy Logic
 
 Buy Signal: when 20-day MA crosses above 50-day MA
